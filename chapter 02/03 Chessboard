@@ -1,0 +1,19 @@
+// Your code here.
+let size = 8
+for(let i=0;i<size;i++){
+  let s1 = ''
+  let s2 = ''
+  for(let j=0;j<size;j++){
+    if(j%2==0){
+      s1+=' '
+      s2+='#'
+      }
+    else{
+      s1+='#'
+      s2+=' '
+      }
+    }
+  if(i%2==0)
+    console.log(s1)
+  else console.log(s2)
+  }
