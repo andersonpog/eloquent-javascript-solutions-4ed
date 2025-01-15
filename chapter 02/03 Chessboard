@@ -39,3 +39,15 @@ for(let i=0;i<size;i++){
     console.log(s1)
   else console.log(s2)
   }
+
+// Clever
+let size = 8
+let s = ''
+for(let i=0;i<size;i++){
+  for(let j=0;j<size;j++){
+    if((i+j)%2==0) s+=' '
+    else s+='#'
+    }
+  s+='\n'
+  }
+console.log(s)
