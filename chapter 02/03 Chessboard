@@ -17,3 +17,25 @@ for(let i=0;i<size;i++){
     console.log(s1)
   else console.log(s2)
   }
+
+// Best
+let size = 8
+let s1 = ''
+let s2 = ''
+
+for(let j=0;j<size;j++){
+    if(j%2==0){
+      s1+=' '
+      s2+='#'
+      }
+    else{
+      s1+='#'
+      s2+=' '
+      }
+    }
+
+for(let i=0;i<size;i++){  
+  if(i%2==0)
+    console.log(s1)
+  else console.log(s2)
+  }
